@@ -1,0 +1,80 @@
+*{box-sizing: border-box;
+}
+p{color:rgb(255, 255, 255);
+}
+body{
+    background-color: #e3f1ff;
+    font-family: arrial, sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+    color:#4a66df;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    color:#1f4e79;
+}
+H2, h3{
+    Font-size:30px;
+    text-align:center;
+    color:#4a66df;
+}
+.DESTACADO{
+    background-color: #dfafa6;
+    font-weight: bold;
+}
+.tarjeta{
+    background-color: white;
+    width: 800px;
+    padding: 10px;
+    border: 2px solid #1f4e49;
+    border-radius: 10px;
+    margin: 10px auto;
+    box-shadow:0 2px 8px rgba(0, 0, 0, 5)
+}
+a{
+    color: #4a66df;
+    text-decoration:none;
+}
+a:hover{
+    color: #e53935;
+    text-decoration: underline;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td{
+    border: 1px solid #cccccc;
+    padding: 6px;
+    text-align: left;
+}
+th{
+    background-color: #1f4e79;
+    color:white;
+}
+tr:nth-child(even){
+    background-color:#5fbedb
+}
+img{
+    max-width: 100%;
+    border-radius: 8px;
+}
+nav ul{
+    list-style: none;
+    padding:0;
+    text-align: center;
+}
+nav li{
+    display: inline-block;
+}
+nav a{
+    display: inline-block;
+    padding: 10px 16px;
+    background-color: #a0cdf7;
+    color: white;
+    border-radius: 6px;
+}
+nav a:hover{
+    background-color:#e53935
+}
